@@ -5,6 +5,7 @@ class Hero
 HEROES = []
 
   def initialize(params)
+    binding.pry
     @name = params[name]
     @power = params[power]
     @bio = params[bio]
