@@ -2,7 +2,7 @@
 <h1>Team Motto: <%=@team.motto%></h1>
 
   <%@heroes.each do |hero|%>
-    @hero = hero
+    <%@hero = hero%>
     <h2><p>Hero Name: <%=@hero.name%></p></h2>
     <p></p>
     <p>Hero Power: <%=@hero.power%></p>
